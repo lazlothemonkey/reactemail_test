@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .stl-underline {
+    @apply underline decoration-2 underline-offset-4
+  };
+  .kr-underline {
+    @apply underline decoration-2 md:decoration-4 underline-offset-8 md:underline-offset-[12px]
+  }
+}
+
+
